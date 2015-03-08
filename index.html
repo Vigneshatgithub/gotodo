@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta name=viewport content="width=device-width, initial-scale=1"/>
+<title>Go To Do</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel=stylesheet type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+  <form onsubmit="return false;">
+  <div class="form-group">
+        <label for="inputTaskItem">Tasks for Today</label>
+
+      <input type="text" class="form-control" id="inputTaskItem" placeholder="Type a task name and enter">
+  </div>
+  </form>
+    
+    <button type="button" id="clear-list" class="btn btn-xs btn-danger">start fresh list</button> <span id='list-total' class='pull-right'></span> 
+
+     <ul class="list-group" id="list-disp">
+      </ul>
+  </body>
+</html>
