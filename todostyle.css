@@ -1,0 +1,22 @@
+#list-disp > li
+{
+    cursor:pointer;
+    margin:0.2em;
+    border:0px; 
+    background-color:#3F51B5;
+    font-family:courier;
+   /* font-weight:bold;*/
+    font-size:1.5em;
+    color:white;
+
+}
+li[data-task=true]
+{
+    text-decoration: line-through;
+    opacity:0.5;
+}
+#list-total
+{
+    font-size:small;
+    color:#311919;
+}
